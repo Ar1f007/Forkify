@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ar1f007/Forkify.git"
+  },
+  "author": "Ariful Hoque Al Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ar1f007/Forkify/issues"
+  },
+  "homepage": "https://github.com/Ar1f007/Forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2"
+  }
+}
