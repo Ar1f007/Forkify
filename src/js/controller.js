@@ -33,6 +33,11 @@ const controlRecipes = async function () {
 // window.addEventListener('hashchange', showRecipe); // show recipe associated with id
 // window.addEventListener('load', showRecipe); // load the page with associated id(if there is any)
 
-['hashchange', 'load'].forEach(ev =>
-  window.addEventListener(ev, controlRecipes)
-);
+// ['hashchange', 'load'].forEach(ev =>
+//   window.addEventListener(ev, controlRecipes)
+// );
+
+const init = function () {
+  recipeView.addHandlerRender(controlRecipes);
+};
+init();
