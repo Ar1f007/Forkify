@@ -1,0 +1,10 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "APP_URL", function () {
+  return APP_URL;
+});
+_parcelHelpers.export(exports, "TIMEOUT_SEC", function () {
+  return TIMEOUT_SEC;
+});
+const APP_URL = 'https://forkify-api.herokuapp.com/v2/recipes/';
+const TIMEOUT_SEC = 10;
