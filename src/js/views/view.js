@@ -16,9 +16,11 @@ export default class View {
     this._parentEl.innerHTML = '';
   }
 
-  update(data) {
+  update(data, render = true) {
     this._data = data;
     const newMarkup = this._generateMarkup();
+
+    if (!render) return newMarkup;
 
     const newDOM = document.createRange().createContextualFragment(newMarkup);
 
